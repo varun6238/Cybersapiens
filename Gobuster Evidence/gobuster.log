@@ -1,0 +1,70 @@
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     https://thc.cybersapiens.in/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirb/big.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+[2K/.htaccess            (Status: 403) [Size: 1229]
+[2K/.htpasswd            (Status: 403) [Size: 1229]
+[2K/.svn                 (Status: 403) [Size: 1229]
+[2K/admin                (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/admin/]
+[2K/bandwidth            (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/bandwidth/]
+[2K/cgi-bin              (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/cgi-bin/]
+[2K/cgi-sys              (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/cgi-sys/]
+[2K/controlpanel         (Status: 301) [Size: 0] [--> https://business128.web-hosting.com:2083]
+[2K/cpanel               (Status: 301) [Size: 0] [--> https://business128.web-hosting.com:2083]
+[2K/css                  (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/css/]
+[2K/fonts                (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/fonts/]
+[2K/images               (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/images/]
+[2K/java-sys             (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/java-sys/]
+[2K/js                   (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/js/]
+[2K/login                (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/login/]
+[2K/mailman              (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/mailman/]
+[2K/pipermail            (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/pipermail/]
+[2K/webmail              (Status: 301) [Size: 0] [--> https://business128.web-hosting.com:2096]
+[2K/whm                  (Status: 301) [Size: 0] [--> https://business128.web-hosting.com:2087]
+[2K/~a                   (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~a/]
+[2K/~adm                 (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~adm/]
+[2K/~administrator       (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~administrator/]
+[2K/~amanda              (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~amanda/]
+[2K/~admin               (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~admin/]
+[2K/~apache              (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~apache/]
+[2K/~bin                 (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~bin/]
+[2K/~chris               (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~chris/]
+[2K/~ftp                 (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~ftp/]
+[2K/~guest               (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~guest/]
+[2K/~http                (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~http/]
+[2K/~httpd               (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~httpd/]
+[2K/~images              (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~images/]
+[2K/~joe                 (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~joe/]
+[2K/~log                 (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~log/]
+[2K/~logs                (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~logs/]
+[2K/~lp                  (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~lp/]
+[2K/~mail                (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~mail/]
+[2K/~mike                (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~mike/]
+[2K/~operator            (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~operator/]
+[2K/~nobody              (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~nobody/]
+[2K/~r                   (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~r/]
+[2K/~site                (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~site/]
+[2K/~sys                 (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~sys/]
+[2K/~root                (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~root/]
+[2K/~sysadm              (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~sysadm/]
+[2K/~sysadmin            (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~sysadmin/]
+[2K/~sys~                (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~sys~/]
+[2K/~test                (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~test/]
+[2K/~user                (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~user/]
+[2K/~tmp                 (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~tmp/]
+[2K/~webmaster           (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~webmaster/]
+
+[2K/~www                 (Status: 301) [Size: 707] [--> https://thc.cybersapiens.in/~www/]
+===============================================================
+Finished
+===============================================================

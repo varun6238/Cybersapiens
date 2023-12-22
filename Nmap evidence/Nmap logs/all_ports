@@ -1,0 +1,52 @@
+# Nmap 7.94SVN scan initiated Wed Dec 20 16:06:24 2023 as: nmap -sC -sV -O -p- -Pn -sS -oN nmap/all_ports thc.cybersapiens.in
+Nmap scan report for thc.cybersapiens.in (104.21.17.204)
+Host is up (0.052s latency).
+Other addresses for thc.cybersapiens.in (not scanned): 2606:4700:3035::ac43:b24a 2606:4700:3033::6815:11cc 172.67.178.74
+Not shown: 65523 filtered tcp ports (no-response)
+PORT     STATE SERVICE    VERSION
+80/tcp   open  http       Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title:  403 Forbidden
+443/tcp  open  ssl/http   Cloudflare http proxy
+|_http-server-header: cloudflare
+| ssl-cert: Subject: commonName=cybersapiens.in
+| Subject Alternative Name: DNS:*.cybersapiens.in, DNS:cybersapiens.in
+| Not valid before: 2023-12-07T13:20:27
+|_Not valid after:  2024-03-06T13:20:26
+|_http-title:  403 Forbidden
+2052/tcp open  clearvisn?
+2053/tcp open  knetd?
+| ssl-cert: Subject: commonName=cybersapiens.in
+| Subject Alternative Name: DNS:*.cybersapiens.in, DNS:cybersapiens.in
+| Not valid before: 2023-12-07T13:20:27
+|_Not valid after:  2024-03-06T13:20:26
+2082/tcp open  infowave?
+2083/tcp open  radsec?
+| ssl-cert: Subject: commonName=cybersapiens.in
+| Subject Alternative Name: DNS:*.cybersapiens.in, DNS:cybersapiens.in
+| Not valid before: 2023-12-07T13:20:27
+|_Not valid after:  2024-03-06T13:20:26
+2086/tcp open  gnunet?
+2095/tcp open  nbx-ser?
+2096/tcp open  nbx-dir?
+| ssl-cert: Subject: commonName=cybersapiens.in
+| Subject Alternative Name: DNS:*.cybersapiens.in, DNS:cybersapiens.in
+| Not valid before: 2023-12-07T13:20:27
+|_Not valid after:  2024-03-06T13:20:26
+8080/tcp open  http       Cloudflare http proxy
+|_http-server-header: cloudflare
+8443/tcp open  ssl/http   Cloudflare http proxy
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+|_http-server-header: cloudflare
+| ssl-cert: Subject: commonName=cybersapiens.in
+| Subject Alternative Name: DNS:*.cybersapiens.in, DNS:cybersapiens.in
+| Not valid before: 2023-12-07T13:20:27
+|_Not valid after:  2024-03-06T13:20:26
+8880/tcp open  http       Cloudflare http proxy
+|_http-server-header: cloudflare
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Dec 20 16:13:59 2023 -- 1 IP address (1 host up) scanned in 454.76 seconds
